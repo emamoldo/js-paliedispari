@@ -57,4 +57,11 @@ function even_or_odd() {
 }
 even_or_odd();
 
-// Who wins?
+// Who wins? The Number who's higher!
+if (userNumber == computerNumber) {
+    console.log(`Parità. Il numero è: ${userNumber}`);
+} else if (userNumber > computerNumber) {
+    console.log(`Vince il Giocatore. Il numero è: ${userNumber}`);
+}else{
+    console.log(`Vince il Computer. Il numero è: ${computerNumber}`);
+}
